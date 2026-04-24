@@ -211,6 +211,22 @@
       box-shadow: 0 6px 20px rgba(0,171,228,0.4);
     }
 
+    .nav-links .cta-nav-outline {
+      background: transparent;
+      color: var(--primary) !important;
+      padding: 8px 20px;
+      border: 2px solid var(--primary);
+      border-radius: 50px;
+      margin-left: 4px;
+    }
+
+    .nav-links .cta-nav-outline:hover {
+      background: var(--primary);
+      color: var(--white) !important;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(0,171,228,0.3);
+    }
+
     .hamburger {
       display: none;
       flex-direction: column;
@@ -1102,6 +1118,13 @@
         padding: 14px 24px;
       }
 
+      .nav-links.open .cta-nav-outline {
+        margin: 12px 0 0;
+        text-align: center;
+        border-radius: 50px;
+        padding: 12px 24px;
+      }
+
       section { padding: 64px 0; }
 
       /* Hero stacks vertically on mobile */
@@ -1161,6 +1184,7 @@
         <li><a href="programs/index.html">Programs</a></li>
         <li><a href="admission/index.html">Admission</a></li>
         <li><a href="contact/index.html">Contact</a></li>
+        <li><a href="https://form.jotform.com/261134579320050" class="cta-nav-outline" target="_blank" rel="noopener noreferrer">Join Our Team</a></li>
         <li><a href="admission/index.html" class="cta-nav">Enroll Now</a></li>
       </ul>
     </div>
